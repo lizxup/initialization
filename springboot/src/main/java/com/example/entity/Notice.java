@@ -1,9 +1,18 @@
 package com.example.entity;
 
 public class Notice {
+
+    //id主键
     private Integer id;
+
+    //标题
     private String title;
+
+
+    //内容文本
     private String content;
+
+    //创建时间
     private String time;
 
     public Integer getId() {

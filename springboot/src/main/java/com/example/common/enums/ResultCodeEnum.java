@@ -1,5 +1,9 @@
 package com.example.common.enums;
 
+
+/**
+ * 定义一些 返回结果代码 和信息
+ */
 public enum ResultCodeEnum {
     SUCCESS ("200","成功"),
     PARAM_ERROR("400", "参数异常"),

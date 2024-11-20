@@ -8,6 +8,10 @@ import com.example.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+
+/**
+ * 登录 注册 修改密码的通用端口
+ */
 @RestController
 public class WebController {
 

@@ -2,7 +2,9 @@ package com.example.exception;
 
 import com.example.common.enums.ResultCodeEnum;
 
-//继承了RuntimeException 就是一个异常类了（自定义的异常类）
+/**
+ * 继承了RuntimeException 就是一个异常类了（自定义的异常类）
+ */
 public class CustomException extends RuntimeException{
 
     public CustomException(String code, String msg) {
